@@ -35,7 +35,7 @@ export default function CameraModal({title}) {
         <div className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-[999]">
           <div className="relative bg-[#1b1e23] rounded-[15px] max-w-4xl w-full p-4 pt-[2.5rem]">
             <button
-              className="absolute top-2 right-2 text-white text-2xl"
+              className="absolute top-2 right-2 text-white text-2xl opacity-70 hover:cursor-pointer hover:opacity-100 transition-opacity duration-300"
               onClick={() => setIsOpen(false)}
             >
               ✖
