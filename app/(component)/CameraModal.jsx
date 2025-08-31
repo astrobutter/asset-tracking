@@ -29,7 +29,6 @@ export default function CameraModal({title}) {
         />
         <div className="text-[1.5rem] font-semibold">{title}</div>
       </div>
-
       {/* Modal */}
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-[999]">
